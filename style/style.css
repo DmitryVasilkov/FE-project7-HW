@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Хэдер */
+.wrapper {
+    width: 68%;
+    margin: auto;
+}
+.header-wrapper {
+    width: 68%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-icon:not(:last-child) {
+    margin-right: 55px;
+}
+
+/* Главная */
+.intro {
+    background-color: #4fbfa5;
+    padding: 25px 0 60px;
+}
+.intro-wrapper {
+    width: 68%;
+}
+.intro-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'ABeeZee', sans-serif;
+    color: white;
+}
+.nav-link:last-child {
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+}
+.intro-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.intro-img {
+    width: 68%;
+}
+.intro-text {
+    width: 30%;
+    font-style: italic;
+}
+.intro-title {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+}
+.intro-descr {
+    font-size: 14px;
+    font-style: italic;
+    margin: 40px 0;
+}
+.intro-btn {
+    padding: 15px 25px;
+    background-color: #00868a;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: white;
+    font-style: italic;
+}
+.intro-img {
+    width: 100%;
+}
+
+/* Предложения */
+.offers {
+    padding: 146px 0 129px 0;
+}
+.suggestions {
+    font-size: 48px;
+    color: #00868A;
+    text-align: center;
+    font-style: italic;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+}
+.current-offers {
+    width: 68%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.images {
+    width: 24%;
+    margin-left: 24px;
+    position: relative;
+}
+.picture {
+    display: block;
+    width: 100%;
+}
+.entrails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00868A;
+    padding: 25px 30px;
+    color: #FFFFFF;
+    font-size: 21px;
+    font-style: italic;
+}
+.new {
+    background: #4FBFA5;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 9px 15px;
+    position: absolute;
+    top: 31px;
+    left: 30px;
+}
+
+/* Футер */
+.footer-wrapper {
+    width: 68%;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-bottom: 31px;
+}
+
+
+

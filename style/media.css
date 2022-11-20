@@ -1,0 +1,66 @@
+@media (max-width: 511px) {
+    .header-wrapper {
+        width: 80%;
+    }
+    .header-icon:not(:last-child) {
+        margin-right: 50px;
+    }
+    /* Главная */
+    .intro-nav {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .nav-link {
+        margin-right: 10px;
+        margin: 10px;
+    }
+    .nav-link:last-child {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .introimg {
+        display: none;
+    }
+    .intro-text {
+        width: 100%;
+    }
+
+    /* Предложения */
+    .offers {
+        padding: 70px 45px;
+    }
+    .suggestions {
+        line-height: 72px;
+        text-align: left;
+        display: block;
+        width: 100%;
+    }
+    .current-offers {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .images {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 28px;
+    }
+    .picture {
+        aspect-ratio: 16/9;
+    }
+
+    /* Футер */
+    .footer-wrapper {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 31px;
+    }
+        
+    
+}  
+    
